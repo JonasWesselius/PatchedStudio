@@ -1,0 +1,45 @@
+.about-section {
+    display: flex;
+    max-width: 65%;
+    margin: 0 auto;
+  }
+  
+  .about-left {
+    flex: 2;
+    padding: 3rem;
+    background-color: var(--dark-blue);
+    color: white;
+    /* border: 2px solid black;  */
+    display: flex; /* Add display flex */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .about-left h2 {
+    text-align: left;
+    padding: 0;
+    margin: 2rem 0 1.5rem 0; /* Adjust margins */
+  }
+  
+  .about-right {
+    flex: 1;
+    background-color: var(--orange);
+    /* border-right: 2px solid black; 
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+    color: white;
+    padding: 3rem;
+  }
+  
+  .achievement {
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; /* Center items vertically */
+  }
+  
+  .achievement img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px; 
+  }
+  

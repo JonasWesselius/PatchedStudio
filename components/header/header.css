@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--dark-blue);
+    padding: 10px 17vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 99;
+    border-bottom: 2px solid black;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 4rem;
+    width: 4rem;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 550;
+}
+
+nav ul li a.active {
+    text-decoration: none;
+    position: relative;
+}
+
+nav ul li a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    height: 2px;
+    border-radius: 20px;
+    background-color: currentColor;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language button {
+    margin-left: 0px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 300;
+    vertical-align: middle;
+}
+
+.language button.active {
+    font-weight: 800;
+    position: relative;
+    top: -1px;
+}
+
+.divider {
+    position: relative;
+    top: -1px;
+}

@@ -1,0 +1,23 @@
+
+.article {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    max-width: 60%; 
+    margin-left: auto;
+    margin-right: auto;
+    color: white ;
+    background-color: var(--dark-blue);
+    padding: 3rem;
+}
+
+.article p {
+    text-align: left; 
+}
+.article h2{
+    font-weight: bold;
+    text-align: left;
+    margin-top: 1.5rem;
+    margin-left: 0;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
