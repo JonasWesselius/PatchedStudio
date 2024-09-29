@@ -1,5 +1,5 @@
 body{
-    background-color: var(--dark-grey);
+    background-color: var(--broken-white);
 }
 header {
     position: relative;
@@ -12,14 +12,21 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh; /* Adjusted height to reduce space */
+    height: 90vh; /* Adjusted height to reduce space */
     position: relative;
     z-index: 2;
+    margin-bottom: 5rem;
 }
-.maxW {
-    /* max-width: 60%;
-    margin: 0 auto; */
-  }  
+/* .maxW {
+    max-width: 60%;
+    margin: 0 auto;
+  }   */
+.black-text{
+    color: var(--dark-grey);
+}
+.white-text{
+    color: var(--white);
+}
 .button {
     background-color: var(--orange);
     display: flex; /* Use flexbox */
@@ -45,9 +52,8 @@ main {
     line-height: 2rem; /* Adjust height of the button */
 }
 
-
 .button:hover {
-    background-color: #8c2b41; /* Change background color on hover */
+    background-color: var(--red); /* Change background color on hover */
 }
 
 
@@ -60,14 +66,15 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0; /* Remove margin */
-    height: 45vh;/* Adjusted height to reduce space */
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 5rem; /* Remove margin */
+    margin-top: 5rem;
     position: relative;
     z-index: 2;
 }
 
 .splitter {
-    margin-top: 2rem;
     position: relative;
     width: 100%;
     height: 100%;
@@ -77,14 +84,13 @@ h2{
     align-items: center;
     overflow: hidden; /* Cut off the overflow */
     align-self: flex-start; /* Align the slogan to the top of its container */
-    margin-bottom: 0;
     z-index: 3;
 }
 
 .splitter img {
     position: absolute;
     top: -150px;
-    max-width: 65%;
+    max-width: 100%;
     display: block;
     margin-bottom: 0;
     margin: 0 auto; /* Align the image horizontally */

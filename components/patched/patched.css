@@ -1,9 +1,7 @@
 .toast-section {
     display: flex;
     max-width: 65%;
-    margin-top: 0;
-    margin-bottom: 0; /* Remove margin */
-    margin: 0 auto;
+    margin: 0 auto 5rem;
     position: relative; /* Create a positioning context */
     z-index: 4;
     color: white;
@@ -12,7 +10,7 @@
   .toast-left {
     flex: 2;
     padding: 3rem;
-    background-color: var(--blue);
+    background-color: var(--green);
     /* border: 2px solid black; */
     display: flex;
     color: white;
@@ -27,18 +25,14 @@
   
   .toast-right {
     flex: 1;
-    background-color: #004165;
-    /* border-top: 2px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black; */
+    background-color: var(--green);
     color: white;
-    padding: 3rem;
+    padding: 5rem;
     position: relative; 
   }
   
   .toast-right img {
-    width: 70%;
-    height: 70%;
+    width: 50%;
     position: absolute; /* Position the logo absolutely */
     top: 50%; /* Align vertically */
     left: 50%; /* Align horizontally */
